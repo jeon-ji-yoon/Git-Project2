@@ -11,6 +11,7 @@
 		A652D56D25B6FB2B009A735A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A652D56C25B6FB2B009A735A /* ContentView.swift */; };
 		A652D56F25B6FB2C009A735A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A652D56E25B6FB2C009A735A /* Assets.xcassets */; };
 		A652D57225B6FB2C009A735A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A652D57125B6FB2C009A735A /* Preview Assets.xcassets */; };
+		A652D57B25B6FEA5009A735A /* ModalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A652D57A25B6FEA5009A735A /* ModalView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		A652D56E25B6FB2C009A735A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A652D57125B6FB2C009A735A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A652D57325B6FB2C009A735A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A652D57A25B6FEA5009A735A /* ModalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				A652D56A25B6FB2B009A735A /* Git_Project2App.swift */,
 				A652D56C25B6FB2B009A735A /* ContentView.swift */,
+				A652D57A25B6FEA5009A735A /* ModalView.swift */,
 				A652D56E25B6FB2C009A735A /* Assets.xcassets */,
 				A652D57325B6FB2C009A735A /* Info.plist */,
 				A652D57025B6FB2C009A735A /* Preview Content */,
@@ -138,6 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A652D57B25B6FEA5009A735A /* ModalView.swift in Sources */,
 				A652D56D25B6FB2B009A735A /* ContentView.swift in Sources */,
 				A652D56B25B6FB2B009A735A /* Git_Project2App.swift in Sources */,
 			);
