@@ -11,9 +11,11 @@ struct ContentView: View {
     @State private var isPresented = false
     var body: some View {
         NavigationView {
-            Button("Show Modal"){
+            
+            Button("Show Modal") {
                 self.isPresented = true
-            }.sheet(isPresented: $isPresented){
+            }.foregroundColor(.blue)
+            .sheet(isPresented: $isPresented){
                 ModalView()
                 
             }
